@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* ......................Hadder section ........... */
+header {
+    display: flex;
+    padding: 10px 0px;
+}
+.H-L{
+    flex: 4;
+}
+.H-L img {
+    width: 4cm;
+    margin-left: 2cm;
+}
+.H-M{
+    display: flex;
+    align-items: center;
+    flex: 6;
+}
+.H-M ul{}
+.H-M ul li {
+    display: inline-block;
+    padding: 0px 12px;
+}
+.H-M ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #070505;
+    /* align-items: center; */
+    /* display: flex; */
+}
+.H-R {
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.btn-1{}
+.btn-1 a {
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.btn-2{}
+.btn-2 a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #54B8FF;
+    color: white;
+}
+/* .........................Hadder section end ....... */
+/* .........................Hero Section............... */
+.hero{
+    display: flex;
+    flex: 1x;
+}
+
+.hero-L {
+    flex: 1;
+    /* display: grid; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* align-content: center; */
+    /* margin-left: 4cm; */
+    position: relative;
+    top: 3cm;
+    left: 5cm;
+    z-index: 0;
+}
+.hero-L p{
+    letter-spacing: 4px;
+    padding: 10px 0px;
+
+}
+.hero-L spam{
+    letter-spacing:1px ;
+    padding: 20px 0px;
+    display: inline-block;
+}
+.hero-L h1{
+    font-size: 55px;
+    color: #5F596E;
+}
+.button{}
+.button a {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #54B8FF;
+    border-radius: 3px;
+    color: white;
+    margin: 15px 0px;
+    display: inline-block;
+}
+.hero-R{
+    flex: 1;
+    
+}
+.hero-R img{
+    
+}
+
+/* -----------------------------Card - Section------------- */
+
+.card{
+    margin: 2cm 0cm;
+    display: flex;
+}
+.card-L{
+    flex: 1;
+}
+.card-L img {
+    width: 18cm;
+    
+}
+.card-R{
+    flex: 1;
+    margin-top: 3cm;
+}
+.card-R h1{
+    color: #04004D;
+    font-size: 40px;
+}
+.card-R p {
+    color: #336C61;
+    letter-spacing: 1px;
+    margin: 25px 0px;
+}
+.card-R a {
+    text-decoration: none;
+    color: #336C61;
+}
+.card-R a i{}
+
+
+/* -----------------------------2nd card----------------- */
+.cards{
+    justify-content:space-around;
+    display: flex;
+}
+.card-01{
+    text-align: center;
+}
+.card-01 img{
+    width: 4rem;
+}
+.card-01 p{
+    color: #757575;
+    font-size: 15px;
+}
+.card-01 h1 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+
+
+/* ------------------------------card-section-3--------------- */
+.card-3{
+ 
+    margin: 4cm 0cm;
+}
+
+.card-3 h1{
+    font-size: 30px;
+    margin-left: 2cm;
+
+}
+.card-3 p {
+    font-size: 15px;
+    padding: 10px 0px;
+    color: #BDBDBD;
+    margin-left: 2cm;
+}
+.M-feature{
+    display: flex;
+    justify-content: space-around;
+}
+.feature {
+    box-shadow: rgb(204 219 232 / 63%) 3px 3px 6px 0px inset, rgb(255 255 255 / 11%) -3px -3px 6px 1px inset;
+    margin-top: 2cm;
+    padding: 23px;
+    border-radius: 10px;
+}
+.feature img{}
+.feature h1 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 5px;
+    margin: 0;
+}
+.feature p {
+    padding: 7px 0px;
+    margin: 0;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+.group p{
+    color: black;
+}
+.group p i {
+    padding-right: 7px;
+    font-size: 18px;
+}
+
+
