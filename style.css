@@ -212,3 +212,169 @@ header {
 }
 
 
+/* -------------------------about us -section-------------- */
+.about-us {
+    /* display: grid; */
+    justify-content: space-evenly;
+    /* display: grid; */
+    display: flex;
+    padding-bottom: 4cm;
+}
+.us-left{
+    position: relative;
+}
+.us-left::before {
+    position: absolute;
+    content: url(./img/Group\ \(2\).png);
+    bottom: -4cm;
+    left: -7cm;
+}
+.us-left p {
+    color: #2F2B71;
+    font-size: 15px;
+    font-family: 'Poppins';
+    line-height: 2rem;
+}
+.us-left h1 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    padding: 25px 0px;
+}
+.us-left span {
+    color: #67687B;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.us-right{
+    position: relative ;
+    z-index: 1;
+}
+.us-right::before {
+    position: absolute;
+    content: url(./img/Vector\ \(1\).png);
+    width: 10rem;
+    height: auto;
+    left: -78px;
+    top: -72px;
+    z-index: -1;
+}
+.us-right::after {
+    position: absolute;
+    content: url(./img/Group\ \(1\).png);
+    height: auto;
+    right: -93px;
+    bottom: -43px;
+    z-index: -1;
+}
+
+.us-right img {
+    width: 25rem;
+}
+
+/* <!-- -------------------------News-Letter------------ --> */
+
+.News-letter {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px;
+    background-color: #63afb5a6;
+    margin: 5rem;
+    
+    
+}
+
+.News-L{
+    margin-top: 30px;
+}
+.News-L p {
+    letter-spacing: 5px;
+    color: #8785AA;
+    padding: 10px 0px;
+}
+.News-L h1 {
+    font-size: 3rem;
+    color: #000000bf;
+}
+.email{}
+.email input {
+    padding: 20px 100px;
+    margin: 27px 0px;
+}
+.email i {
+    padding: 13px;
+    background-color: #1a1a60;
+    position: relative;
+    left: -2cm;
+    color: white;
+    box-sizing: border-box;
+    
+}
+.email i:hover{
+    font-size: 18px;
+    padding: 12px;
+
+}
+
+.News-R{
+    position: relative;
+}
+.News-R img{
+    position: relative;
+    top: 3rem;
+}
+
+    
+   
+    
+.News-R::before {
+    content: url(./img/circled\ lines.png);
+    position: absolute;
+    top: 14rem;
+    left: 2rem;
+}
+
+
+/* ----------------------------------Footer-Section----------------- */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{}
+.row h1 {
+    font-size: 18px;
+    color: #000000b5;
+    padding-bottom: 30px;
+}
+.row a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 0px;
+    color: #7A7A7E;
+    font-size: 12px;
+}
+.row-last{}
+.row-last h1 {
+    font-size: 18px;
+    color: #000000b8;
+    padding-bottom: 30px;
+}
+.row-icon {
+    width: 5cm;
+    height: auto;
+    position: relative;
+    top: -3.1rem;
+    left: 22rem;
+}
+.row-icon i {
+    font-size: 20px;
+    padding: 0px 18px;
+}
+.map {
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 1rem;
+}
+
+
+
