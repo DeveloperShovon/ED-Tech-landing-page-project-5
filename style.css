@@ -32,6 +32,9 @@ header {
     /* align-items: center; */
     /* display: flex; */
 }
+.H-M ul li a:hover{
+    color: #2499ba;
+}
 .H-R {
     display: flex;
     align-items: center;
@@ -74,6 +77,18 @@ header {
     left: 5cm;
     z-index: 0;
 }
+.hero-L::before {
+    content: url(./img/Group\ \(5\).png);
+    position: absolute;
+    bottom: 13rem;
+    left: -12rem;
+}
+.hero-L::after {
+    content: url(./img/Group\ \(6\).png);
+    position: absolute;
+    top: -7rem;
+    left: -12rem;
+}
 .hero-L p{
     letter-spacing: 4px;
     padding: 10px 0px;
@@ -100,7 +115,19 @@ header {
 }
 .hero-R{
     flex: 1;
-    
+    position: relative;
+}
+.hero-R::after {
+    content: url(./img/Group\ \(3\).png);
+    position: absolute;
+    bottom: 10rem;
+    right: 0rem;
+}
+.hero-R::before {
+    content: url(./img/Group\ \(4\).png);
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
 }
 .hero-R img{
     
@@ -114,6 +141,15 @@ header {
 }
 .card-L{
     flex: 1;
+    position: relative;
+    z-index: 1;
+}
+.card-L::before {
+    content: url(./img/Group\ \(7\).png);
+    bottom: 8rem;
+    right: 10rem;
+    position: absolute;
+    z-index: -1;
 }
 .card-L img {
     width: 18cm;
